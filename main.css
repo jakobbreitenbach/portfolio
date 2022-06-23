@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+body{
+    color: black;
+    font-size: 18px;
+    font-family: 'Satisfy', cursive;
+    box-sizing: border-box;
+    padding: 25px;
+    background-image: url('Parchment.jpg');
+    background-size: cover;
+}
+.navcontainer{
+    display: flex;
+    flex-flow: row;
+    min-height: 10vh;
+}
+.navitem {
+    display: flex;
+    justify-content: center;
+    color:black;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    padding: 7px;
+    height: 50px;
+    width:33.33%;
+    background-color: rgba(233, 212, 184, 0.5);
+    border: 4px outset rgba(231, 209, 180, 0.5)
+}
+.DnDpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%
+}
+h1{
+    color:rgb(27, 10, 43);
+    font-size: 2.5em;
+}
+.alphabet{
+    color: aqua;
+    font-size: 1.25em;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown > input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+  }
+  
+  .dropdown > label,
+  .dropdown > a[role="button"] {
+    display: inline-block;
+    padding: 6px 15px;
+    color: rgb(5, 5, 5);
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-decoration: none;
+    border: 3px ridge #8c8c8c;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: rgba(235, 213, 184, 0.25);
+  }
+  
+  .dropdown > label:hover,
+  .dropdown > a[role="button"]:hover,
+  .dropdown > a[role="button"]:focus {
+    border-color: #333;
+  }
+  
+
+  
+  .dropdown > p {
+    position: absolute;
+    z-index: 999;
+    display: block;
+    left: -200vw;
+    top: calc(1.5em + 14px);
+    border: 2px ridge #8c8c8c;
+    background: rgb(236, 220, 198);
+    padding: 6px 12px;
+    margin: 1;
+    list-style: none;
+    width: 300%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+  }
+  
+  .dropdown > p a {
+    display: block;
+    padding: 6px 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown > p a:hover,
+  .dropdown > p a:focus {
+    background: #ececec;
+  }
+  
+  .dropdown > input[type="checkbox"]:checked ~ p,
+  .dropdown > p:target {
+    left: 0;
+  }
+  
+
+  
+  .dropdown a.close {
+    display: none;
+  }
+  
+  .dropdown > p:target ~ a.close {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-indent: -100vw;
+    z-index: 1000;
+  }
+
+.references>a{
+    padding: 3px 7px;
+    border: 3px ridge rgba(140,140,140, 0.5);
+    color:rgb(43, 6, 78);
+    background-color: rgba(235, 213, 184, 0.25);
+}
