@@ -29,7 +29,7 @@ body{
     background-color: rgba(233, 212, 184, 0.5);
     border: 4px outset rgba(231, 209, 180, 0.5)
 }
-.DnDpic{
+#DnDpic{
     display: block;
     margin-left: auto;
     margin-right: auto;
